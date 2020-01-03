@@ -17,6 +17,7 @@ import Login from '@/components/auth/Login'
 import MyPage from '@/components/auth/MyPage'
 import MyPageUpdate from '@/components/auth/MyPageUpdate'
 import Admin from '@/components/admin/Admin'
+import MyKakaoLogin from '@/components/auth/MyKakaoLogin'
 
 Vue.use(Router)
 
@@ -39,6 +40,7 @@ export default new Router({
 		{path: '/login',name: 'login', component: Login},
 		{path: '/myPage',name: 'myPage', component: MyPage},
 		{path: '/myPageUpdate',name: 'myPageUpdate', component: MyPageUpdate},
-		{path: '/admin',name: 'admin', component: Admin}
+		{path: '/admin',name: 'admin', component: Admin},
+		{path: '/myKakaoLogin',name: 'myKakaoLogin', component: MyKakaoLogin},
 	]
 })
